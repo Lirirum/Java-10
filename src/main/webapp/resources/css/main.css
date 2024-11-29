@@ -1,0 +1,198 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+html,body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {   
+    width: 1200px;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+   
+}
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+header {
+    background: linear-gradient(to right, #4f46e5, #3b82f6);
+    padding: 1rem 0; /* Внутрішній відступ */
+    color: white; /* Колір тексту */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь для заголовка */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1 {
+    font-size: 2rem; /* Розмір заголовка */
+     font-weight: bold;
+}
+
+nav.main_nav {
+ 
+}
+
+.nav-links {
+    list-style-type: none; /* Прибираємо маркери списку */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Вирівнюємо елементи в ряд */
+    gap: 2rem; /* Проміжок між елементами */
+}
+
+.nav-links li {
+    transition: transform 0.3s; /* Анімація при наведенні */
+}
+
+.nav-links li:hover {
+    transform: scale(1.1); /* Збільшення при наведенні */
+}
+
+
+
+    
+
+footer {
+    background: linear-gradient(to right, #4f46e5, #3b82f6);
+    color: white;
+    padding: 1.5rem 0; 
+    text-align: center; 
+}
+
+footer p {
+    margin: 0; /* Без зовнішнього відступу */
+}
+
+
+
+.main-list {
+    list-style: none; 
+    padding: 0; 
+}
+
+.main-list li {
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 10px 0; 
+    transition: background-color 0.3s; 
+}
+
+.main-list li:hover {
+    background-color: #f1f1f1; 
+}
+
+.main-list strong {
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+
+.list-container{
+    background-color:rgba(24, 20, 236, 0.404);
+    padding: 20px;
+    border-radius:10px
+    
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: left; 
+}
+
+        /* Стиль заголовка */
+
+        /* Стиль для міток (label) */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+        /* Стиль для полів введення */
+.form-container  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+        /* Стиль для кнопки */
+.form-container  input[type="submit"] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+        }
+
+        /* Стиль при наведенні на кнопку */
+.form-container  input[type="submit"]:hover {
+background-color: #45a049;
+}
+input.mini_button  {
+      background: linear-gradient(to right, #4f46e5, #3b82f6);
+      width: 100px;
+      margin:5px;
+}
+
+.button{
+    
+
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.delete-button{
+    background-color: #e74c3c;
+}
+.delete-button:hover {
+    background-color:  #c0392b;
+    transform: scale(1.1);
+}
+.button-edit {
+    background-color: #3498db; /* Синий */
+    color: white;
+}
+
+.button-edit:hover {
+    background-color: #2980b9; /* Темно-синий */
+    transform: scale(1.1);
+}

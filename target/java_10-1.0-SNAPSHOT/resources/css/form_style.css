@@ -1,0 +1,49 @@
+/* Основные стили для страницы */
+
+/* Стиль заголовка */
+.form-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Стили для полей ввода */
+.form-input, .form-textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Стили для textarea (когда текстовое поле многострочное) */
+.form-textarea {
+    height: 120px;
+}
+
+/* Стили для кнопки */
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+

@@ -1,0 +1,35 @@
+
+
+  table {
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #ffffff; /* Білий фон таблиці */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Тінь для глибини */
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #dcdcdc; /* Світло-сірі межі */
+        }
+
+        th {
+            background-color: #4682b4; /* Блакитний для заголовків */
+            color: white;
+            font-size: 18px;
+        }
+
+        td {
+            background-color: #f0f8ff; /* Світло-блакитний фон для клітинок */
+            color: #333;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #e6f7ff; /* Світло-блакитний відтінок для парних рядків */
+        }
+
+        tr:hover td {
+            background-color: #cce7ff; /* Легкий блакитний ефект при наведенні на рядок */
+        }

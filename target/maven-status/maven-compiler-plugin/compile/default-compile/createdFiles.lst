@@ -1,0 +1,5 @@
+servlet\SenderServlet.class
+bean\MessageProducerBean.class
+com\mycompany\java_10\resources\JakartaEE10Resource.class
+bean\MessageReceiverBean.class
+com\mycompany\java_10\JakartaRestConfiguration.class

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      lang="en">
+<ui:composition template="template.xhtml">
+    <ui:define name="title">Send Message</ui:define>
+    
+    <ui:define name="content">
+    <h:outputStylesheet name="css/form_style.css" />
+        <div class="main">
+           <div class="form-container">
+                <h:form>
+                <h:outputLabel value="Фільтр:" for="filter" />
+                <h:inputText id="filter" value="#{messageProducerBean.filter}" />
+                <br />
+                <h:outputLabel value="Текст повідомлення:" for="text" />
+                <h:inputText id="text" value="#{messageProducerBean.text}" />
+                <br />
+                <h:commandButton value="Відправити" action="#{messageProducerBean.sendMessage}" />
+                </h:form>
+           </div>
+        </div>
+    </ui:define>
+</ui:composition>
+</html>
